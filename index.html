@@ -4,15 +4,123 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clase8</title>
+    <title>Trabajo Practico Integrador</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="./codoacodo.png" alt="" width="60" height="50"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Conf Bs As</a>
+                      </li>                         
+                </ul> 
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">La conferencia</a>
+                      </li>                
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Los Oradores</a>
+                  </li>                
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">El lugar y la fecha</a>
+                  </li>    
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Conviértete en orador</a>
+                  </li> 
+                </li>    
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Comprar tickets</a>
+                </li> 
+                </ul>                             
+              </div>
+            </div>
+          </nav>
+    </header>
     <main>
-        <section>
-            <h1>
-                Github Page - Codo a codo
-            </h1>
+        <section class="conteiner">
+        <div class="d-flex justify-content-center align-items-center" style="background-image: url(./ba1.jpg); width: 100%; height: 650px;">
+            <div class="mask" style="background-color: rgba(0,0,0,0.6);">
+        <div class="col-6">
+        </div>
+        <div class="col-6" style="text-align:right">
+            <h1 class="text-white mb-0">Conf Bs As</a></h1>
+            <p class="text-white mb-0">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que estan creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p> 
+        </div>
+        <br>
+        <div class="buttons">
+            <button type="button" class="btn btn-outline-light btn-lg">Quiero ser orador</button>
+            <button type="button" class="btn btn-success btn-lg"><a id="tickets">Comprar tickets</a></button>
+        </div>
+      </section>
+        <section class="container">
+            <div class="row">
+                <div class="card-group container-fluid g-0">
+                    <div class="card"> 
+                        <div class="col-sm-4">                      
+                        <img src="./steve.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <span class="badge bg-warning text-dark">JavaScript</span>
+                                <span class="badge bg-success">React</span>
+                                <h5 class="card-title">Steve Jobs</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae temporibus officiis, soluta optio eveniet explicabo pariatur ipsam quia doloribus itaque sapiente placeat nam dolor incidunt odit quaerat, repellat omnis aliquid.</p>
+                                
+                            </div>
+                        </div> 
+                    </div>
+                           
+                    <div class="card">
+                        <div class="col-sm-4">
+                        <img src="./bill.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <span class="badge bg-warning text-dark">JavaScript</span>
+                                <span class="badge bg-success">React</span>
+                                <h5 class="card-title">Bill Gates</h5>
+                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, rerum ab adipisci ut exercitationem aliquam necessitatibus rem expedita recusandae officia ad dolorem odio sapiente, distinctio deleniti vero libero quam corporis?</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="col-sm-4">
+                        <img src="./ada.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <span class="badge bg-secondary">Secondary</span>
+                                <span class="badge bg-danger">Danger</span>
+                                <h5 class="card-title">Ada Lovelace</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate repellendus velit iure quae laudantium pariatur necessitatibus facilis doloremque accusantium vitae enim dolores officia sed, nemo molestias nulla dignissimos, nobis fugiat.</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>  
         </section>
-    </main>
+        <section>
+            <form>
+                <div class="container">
+                    <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
+                    </div>
+                    <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Verificado</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </form>
+        </section>
 </body>
 </html>

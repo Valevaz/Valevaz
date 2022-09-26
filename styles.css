@@ -1,0 +1,18 @@
+nav {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.row>* {
+    display: block;
+    padding-right: 0%;
+    padding-left: 0%;
+    width: 100%;    
+}
+
+.bg {
+    position: relative;
+    opacity: 1;
+    transition: 0.5s opacity;
+    ;
+}
