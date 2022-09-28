@@ -1,0 +1,67 @@
+nav img {
+    width: 30%;
+}
+
+.col-6  {
+   display: flex;
+   justify-content: center; 
+   text-align: right;   
+}
+#imagen {
+    background: rgba(255, 122, 89, .5);
+    opacity: .9;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    
+    
+}
+
+#titulo {
+    text-align: center;
+}
+
+p {
+    margin-bottom: 0%;
+}
+
+.card {
+    margin: 2%;
+}
+
+.row img {
+    padding: 0%;
+}
+
+#par {
+    text-align: left;
+    align-items: flex-start;
+}
+
+footer {
+    margin-top: 1%;
+    background-color: #214d67;
+    height: 100px;
+    color: white;
+    padding-top: 3%;
+
+}
+form { 
+    align-content: center;
+    
+    
+}
+.col-12 {    
+    width: 70 ;
+    border-radius: 7px;    
+    text-align: left;   
+    align-content: center     ;
+    /*background-color: rgb(79, 213, 128);*/
+}
+
+.btn1 {
+    background-color: rgb(173, 218, 112);
+    color: white;
+    border: 0;
+
+}
